@@ -22,5 +22,8 @@ export const useWindowDimensions = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  return windowDimensions;
+  return {
+    windowDimensions,
+    isMobile: windowDimensions.width < 700 ? true : false,
+  };
 };

@@ -1,63 +1,28 @@
-.front {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  background-color: rgb(240, 240, 240);
-  border-radius: 20px;
-}
-
-.back {
+.servicesMobile {
   display: flex;
-  background-color: rgb(75, 107, 40);
-  border-radius: 20px;
-  justify-content: top;
-  align-items: center;
-  padding: 20px;
-  min-height: 160px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.image {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px 0px 0px 20px;
+.services {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 900px;
+  gap: 20px;
 }
 
 .container {
-  display: grid;
-  grid-template-rows: 40px minmax(70px, 1fr) 40px;
-  padding: 25px;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 60px);
+  padding: 20px 40px 20px 20px;
 }
 
-.title {
-  font-weight: 800;
-  font-size: 1.5rem;
-}
-
-.text {
-  font-weight: 200;
-  text-overflow: ellipsis;
-  max-height: 65px;
-  font-size: 0.8rem;
-}
-
-.backText {
-  font-weight: 200;
-  color: white;
-}
-
-.button {
-  background-color: rgb(75, 107, 40);
-  color: white;
-  padding: 10px;
-  width: 100px;
-  text-align: center;
-  height: 20px;
-  border-radius: 8px;
-  margin-top: 10px;
-}
-
-.button:hover {
-  background-color: rgb(123, 159, 85);
-  cursor: pointer;
+.containerMobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 40px);
+  padding: 20px;
 }

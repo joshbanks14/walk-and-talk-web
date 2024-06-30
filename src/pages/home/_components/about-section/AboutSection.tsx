@@ -3,14 +3,14 @@ import ProfileImage from "../../../../_assets/profile-photo.jpg";
 import { useWindowDimensions } from "../../../../_hooks/use-window-dimensions";
 
 export const AboutSection = () => {
-  const { width } = useWindowDimensions();
+  const { isMobile } = useWindowDimensions();
   return (
     <div className={styles.about}>
-      <div className={width > 800 ? styles.body : styles.bodyMobile}>
+      <div className={isMobile ? styles.bodyMobile : styles.body}>
         <img
-          className={width > 800 ? styles.image : styles.imageMobile}
+          className={isMobile ? styles.imageMobile : styles.image}
           src={ProfileImage}
-          style={{ marginBottom: width > 800 ? "" : "20px" }}
+          style={{ marginBottom: isMobile ? "20px" : "0px" }}
         />
         <div className={styles.content}>
           <div className={styles.aboutTitle}>About Me</div>
