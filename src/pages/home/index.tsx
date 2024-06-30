@@ -1,8 +1,8 @@
 import styles from "./index.module.css";
-import DogImage from "../../_assets/dog1.jpg";
-import CatImage from "../../_assets/cat1.jpg";
-import PetSittingImage from "../../_assets/dog2.jpg";
-import DropInImage from "../../_assets/dropin.jpg";
+import DogImage from "../../_assets/dog3.jpg";
+import CatImage from "../../_assets/cat2.jpg";
+import PetSittingImage from "../../_assets/dog4.jpg";
+import DropInImage from "../../_assets/dropin2.jpg";
 import ServiceSection from "./_components/service-section/ServiceSection";
 import { AboutSection } from "./_components/about-section/AboutSection";
 import { useWindowDimensions } from "../../_hooks/use-window-dimensions";

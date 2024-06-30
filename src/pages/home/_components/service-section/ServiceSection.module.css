@@ -11,6 +11,8 @@
   border-radius: 20px;
   justify-content: top;
   align-items: center;
+  padding: 20px;
+  min-height: 150px;
 }
 
 .image {
@@ -42,9 +44,6 @@
 
 .backText {
   font-weight: 200;
-  padding: 20px;
-  overflow-y: scroll;
-  height: 150px;
   color: white;
 }
 
