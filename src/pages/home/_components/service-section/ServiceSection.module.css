@@ -1,0 +1,64 @@
+.front {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+}
+
+.back {
+  display: flex;
+  background-color: rgb(75, 107, 40);
+  border-radius: 20px;
+  justify-content: top;
+  align-items: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 40px 1fr 40px;
+  padding: 25px;
+  overflow: hidden;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.text {
+  font-weight: 200;
+  text-overflow: ellipsis;
+  max-height: 65px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.backText {
+  font-weight: 200;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 150px;
+  color: white;
+}
+
+.button {
+  background-color: rgb(75, 107, 40);
+  color: white;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  height: 20px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: rgb(123, 159, 85);
+  cursor: pointer;
+}
