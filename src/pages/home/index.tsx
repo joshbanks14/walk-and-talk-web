@@ -50,17 +50,13 @@ Cat visits start from £10.00. "
         <ServiceSection
           image={PetSittingImage}
           header="Pet Sitting"
-          body="I provide home visits for cats and do house hold tasks whilst your
-              away. Cat visits start from £10.00. Please click here to find out
-              more."
+          body="I offer overnight pet sitting services and overnight stays, so your pet is comfortable in their own home. Please click below to find out more."
           info="Choosing and trusting the right person to look after your beloved pets and stay in your home, is a huge decision - and one that I do not underestimate. To have a professional pet sitter in your home, providing overnight care, means your pets are relaxed in their own environment and are comfortable with their regular routines. As opposed to being stressed and worried in a boarding facility with lots of different noises and smells, surrounded by many other animals. You can go away on holiday, assured that your pets are loved and well cared for in their own home, following their usual routine. I will regularly update you with photographs and videos."
         />
         <ServiceSection
           image={DropInImage}
           header="Drop-Ins"
-          body="I provide home visits for cats and do house hold tasks whilst your
-              away. Cat visits start from £10.00. Please click here to find out
-              more."
+          body="I can provide companionship, toilet breaks, small walks if required and also administer medication."
           info="Drop in visits are ideal for older and younger dogs who cannot walk as far. I can provide companionship, toilet breaks, small walks if required and also administer medication. I used to own a diabetic dog so I can also give injections."
         />
       </div>
