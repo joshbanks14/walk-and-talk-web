@@ -39,7 +39,6 @@
   text-overflow: ellipsis;
   max-height: 65px;
   font-size: 0.8rem;
-  margin-bottom: 20px;
 }
 
 .backText {
@@ -55,6 +54,7 @@
   text-align: center;
   height: 20px;
   border-radius: 8px;
+  margin-top: 10px;
 }
 
 .button:hover {
