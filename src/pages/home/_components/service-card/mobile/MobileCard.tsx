@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./MobileCard.module.css";
 import { useWindowDimensions } from "../../../../../_hooks/use-window-dimensions";
 
@@ -11,18 +11,13 @@ type ServiceSectionProps = {
 
 const MobileCard = ({ image, header, body, info }: ServiceSectionProps) => {
   const [cardFlip, setCardFlip] = useState(false);
+
   return (
-    <div
-      className={styles.card}
-      style={{ height: cardFlip ? "fit-content" : "300px" }}
-    >
+    <div className={styles.card}>
       <img
         className={styles.image}
         src={image}
-        style={{
-          height: cardFlip ? "100%" : "40%",
-          transition: "height 1s",
-        }}
+        style={{ height: cardFlip ? "300px" : "120px" }}
       />
       <div className={styles.container}>
         <div className={styles.title}>{header}</div>

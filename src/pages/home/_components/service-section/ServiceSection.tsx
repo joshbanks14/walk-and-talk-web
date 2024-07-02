@@ -1,7 +1,8 @@
 import DogImage from "../../../../_assets/dog3.jpg";
 import CatImage from "../../../../_assets/cat2.jpg";
 import PetSittingImage from "../../../../_assets/dog4.jpg";
-import DropInImage from "../../../../_assets/dropin2.jpg";
+import DropInImage from "../../../../_assets/dropin5.jpg";
+import HomeVisitImage from "../../../../_assets/homevisit.jpg";
 import ServiceCard from "../service-card/index";
 import styles from "./ServiceSection.module.css";
 import { useWindowDimensions } from "../../../../_hooks/use-window-dimensions";
@@ -14,8 +15,8 @@ export const ServiceSection = () => {
         <ServiceCard
           image={PetSittingImage}
           header="Pet Sitting"
-          body="I offer overnight pet sitting services and overnight stays, so your pet is comfortable in their own home."
-          info="Choosing and trusting the right person to look after your beloved pets and stay in your home, is a huge decision - and one that I do not underestimate. To have a professional pet sitter in your home, providing overnight care, means your pets are relaxed in their own environment and are comfortable with their regular routines. As opposed to being stressed and worried in a boarding facility with lots of different noises and smells, surrounded by many other animals. You can go away on holiday, assured that your pets are loved and well cared for in their own home, following their usual routine. I will regularly update you with photographs and videos."
+          body="I offer overnight pet sitting services so your pet is comfortable in their own home."
+          info="Choosing and trusting the right person to look after your beloved pets and stay in your home is a huge decision and one that I do not underestimate. To have a professional pet sitter in your home, providing overnight care, means your pets are relaxed in their own environment and are comfortable with their regular routines. You can go away on holiday, assured that your pets are loved and well cared for in their own home, following their usual routine. I will regularly update you with photographs and videos. Whilst i am staying in your home i can also remove post, put bins out and water plants. Please contact me for prices."
         />
         <ServiceCard
           image={CatImage}
@@ -42,8 +43,14 @@ Walks start from £10.00 depending on duration and number of dogs."
         <ServiceCard
           image={DropInImage}
           header="Drop-Ins"
-          body="I can provide companionship, toilet breaks, small walks if required and also administer medication."
-          info="Drop in visits are ideal for older and younger dogs who cannot walk as far. I can provide companionship, toilet breaks, small walks if required and also administer medication. I used to own a diabetic dog so I can also give injections."
+          body="Drop in visits are perfect for domestic pets that can be left alone for most of the day when you are away."
+          info="Drop ins visits are perfect for domestic pets that can be left alone for most of the day when you are away. I can change bedding, refresh water and feed. Also lots of cuddles and play, if required. During these visits I can also remove post, open and close curtains, switch lights on/off, put bins out and water plans. Visits start from £10.00 depending on duration."
+        />
+        <ServiceCard
+          image={HomeVisitImage}
+          header="Home Visits"
+          body="Home visits are ideal for older and younger dogs who cannot walk as far. Visits start from £10.00."
+          info="Home visits are ideal for older and younger dogs who cannot walk as far. I can provide companionship, toilet breaks, small walks if required and also administer medication. Having loved an cared for a diabetic dog I can also give injections. Visits start from £10.00 depending on duration."
         />
       </div>
     </div>

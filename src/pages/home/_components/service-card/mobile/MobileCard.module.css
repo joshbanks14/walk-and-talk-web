@@ -3,7 +3,6 @@
   flex-direction: column;
   border-radius: 20px;
   background-color: rgb(240, 240, 240);
-  transition: height 0.5s;
   margin: 10px;
 }
 
@@ -11,6 +10,7 @@
   width: 100%;
   object-fit: cover;
   border-radius: 20px 0px 0px 20px;
+  transition: height 1s ease;
 }
 
 .container {
@@ -45,4 +45,22 @@
 .button:hover {
   background-color: rgb(123, 159, 85);
   cursor: pointer;
+}
+
+@keyframes card {
+  from {
+    height: 300px;
+  }
+  to {
+    height: fit-content;
+  }
+}
+
+@keyframes image {
+  from {
+    height: 40%;
+  }
+  to {
+    height: 100%;
+  }
 }
