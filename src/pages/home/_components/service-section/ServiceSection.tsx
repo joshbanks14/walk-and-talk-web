@@ -50,7 +50,7 @@ Walks start from £10.00 depending on duration and number of dogs."
           image={HomeVisitImage}
           header="Home Visits"
           body="Home visits are ideal for older and younger dogs who cannot walk as far. Visits start from £10.00."
-          info="Home visits are ideal for older and younger dogs who cannot walk as far. I can provide companionship, toilet breaks, small walks if required and also administer medication. Having loved an cared for a diabetic dog I can also give injections. Visits start from £10.00 depending on duration."
+          info="Home visits are ideal for older and younger dogs who cannot walk as far. I can provide companionship, toilet breaks, small walks if required and also administer medication. Having loved and cared for a diabetic dog I can also give injections. Visits start from £10.00 depending on duration."
         />
       </div>
     </div>
