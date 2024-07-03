@@ -21,9 +21,8 @@ export const AboutSection = () => {
             I have over 30 years experience in having owned my own dogs/cats and
             caring for other peoples. My goal is to make sure your pets are
             safe, healthy, happy, and loved whilst in my care. I live in the
-            Bradford-on-Avon area. I am fully Insured. DBS approved. I offer a
-            range of services. I live in Bradford-on-Avon and cover surrounding
-            areas.
+            Bradford-on-Avon area and cover surrounding areas. I am fully
+            Insured. DBS approved. I offer a range of services.
           </div>
           <div className={styles.contactTitle}>Contact Details</div>
           <div className={styles.aboutText}>Phone Number: 07545450347</div>
