@@ -25,7 +25,7 @@ export const ServiceSection = () => {
               away. Cat visits start from £10.00."
           info="Cats can be territorial and become easily stressed in unfamiliar surroundings. This is where I come in and provide visits to your home. These visits not only provide your cat with individual care and company, but they also allow your cat to remain happy in their familiar environment when you can’t be there.  I will regularly update you with photographs and videos. 
 
-During these visits I can also remove post, open and close curtains, lights on/off, put bins out and water plants.
+During these visits I can also remove post, open and close curtains, switch lights on/off, put bins out and water plants.
 
 Cat visits start from £10.00. "
         />
@@ -44,7 +44,7 @@ Walks start from £10.00 depending on duration and number of dogs."
           image={DropInImage}
           header="Drop-Ins"
           body="Drop in visits are perfect for domestic pets that can be left alone for most of the day when you are away."
-          info="Drop ins visits are perfect for domestic pets that can be left alone for most of the day when you are away. I can change bedding, refresh water and feed. Also lots of cuddles and play, if required. During these visits I can also remove post, open and close curtains, switch lights on/off, put bins out and water plans. Visits start from £10.00 depending on duration."
+          info="Drop ins visits are perfect for domestic pets that can be left alone for most of the day when you are away. I can change bedding, refresh water and feed. Also lots of cuddles and play, if required. During these visits I can also remove post, open and close curtains, switch lights on/off, put bins out and water plants. Visits start from £10.00 depending on duration."
         />
         <ServiceCard
           image={HomeVisitImage}

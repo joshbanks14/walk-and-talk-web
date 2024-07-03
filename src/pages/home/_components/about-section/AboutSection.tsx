@@ -22,7 +22,8 @@ export const AboutSection = () => {
             caring for other peoples. My goal is to make sure your pets are
             safe, healthy, happy, and loved whilst in my care. I live in the
             Bradford-on-Avon area. I am fully Insured. DBS approved. I offer a
-            range of services
+            range of services. I live in Bradford-on-Avon and cover surrounding
+            areas.
           </div>
           <div className={styles.contactTitle}>Contact Details</div>
           <div className={styles.aboutText}>Phone Number: 07545450347</div>
